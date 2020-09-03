@@ -2,24 +2,24 @@
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
   <title>Adivina el número</title>
-
 </head>
 <body>
-  
-  <h1>Adivina el número</h1>
-
+  <div class="container">
+  <h1>¡Adivina el número!</h1>
   <form>
+    <div>
       <label for="input" class="number"> Introduce aquí tu número: </label>
       <input type="number"  class="input">
+    </div>
       <button type="submit" class="button">Prueba</button>
   </form>
-
   <div class="pista">Pista: <span id="tip">Escribe un número y dale a Prueba</span></div>
   <div class="counter">Número de intentos: <span id="counter">0</span></div>
-
-  <script type="text/javascript" src="./main.js"></script>
+</div>
+  <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
 

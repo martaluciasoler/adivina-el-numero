@@ -1,0 +1,32 @@
+body {
+  background: url(../adivina-el-numero/image/numeros.jpg);
+  font-family: 'Sniglet', cursive;
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(254, 254, 255, 0.809);
+  padding: 30px;
+  color: rgb(61, 20, 150);
+  text-align: center;
+  line-height: 50px;
+  border-radius: 30px;
+}
+.button {
+  color: white;
+  background-color: rgb(255, 0, 98);
+  font-family: 'Sniglet', cursive;
+  border-radius: 100px;
+}
+.button:hover {
+  transform: scale(1.5);
+}
+.input {
+  width: 70px;
+}
